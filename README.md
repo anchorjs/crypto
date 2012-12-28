@@ -34,7 +34,7 @@ md5hmac.update('World');
 var d = md5hmac.digest('hex');
 ```
 
-## Interfaces
+## Implements
 
 This module (partially) conforms to the interface exported by Node's [Crypto](http://nodejs.org/api/crypto.html)
 module.
