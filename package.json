@@ -30,6 +30,7 @@
   },
   "volo": {
     "dependencies": {
+      "md5": "github:anchorjs/md5/master"
     }
   }
 }
