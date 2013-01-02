@@ -1,0 +1,16 @@
+{
+  "name": "crypto",
+  "version": "0.0.0",
+  "description": "Crypto module for Anchor.js.",
+  "repo": "anchorjs/crypto",
+  "main": "main.js",
+  "scripts": [
+    "main.js",
+    "lib/hash.js",
+    "lib/hmac.js"
+  ],
+  "dependencies": {
+    "anchorjs/md5": "*"
+  },
+  "license": "MIT"
+}
