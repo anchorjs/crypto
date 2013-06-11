@@ -7,8 +7,7 @@ require.config({
   },
   packages: [
     { name: 'crypto', location: '../../../..', main: 'main' },
-    { name: 'md5' },
-    { name: 'mocha-cloud', location: '../support', main: 'mocha-cloud' }
+    { name: 'md5' }
   ],
   shim: {
     'mocha': {
