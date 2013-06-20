@@ -4,11 +4,13 @@ The Crypto module provides support for cryptographic operations.
 
 ## Install
 
+##### component
+
+    $ component install anchorjs/crypto
+
 ##### volo
 
     $ volo add anchorjs/crypto
-
-For more information on using volo to manage JavaScript modules, visit [http://volojs.org/](http://volojs.org/).
 
 ## Usage
 
@@ -34,25 +36,30 @@ md5hmac.update('World');
 var d = md5hmac.digest('hex');
 ```
 
-## Implements
+## Compatibility
+
+##### component
+
+This module uses the [AMD](https://github.com/amdjs/amdjs-api) format.  To
+include in component builds, use [component-amd](https://github.com/jaredhanson/component-amd):
+
+    component build -u component-amd
+
+##### Node
 
 This module (partially) conforms to the interface exported by Node's [Crypto](http://nodejs.org/api/crypto.html)
 module.
 
 ## Tests
 
-##### Browser
-
 To run tests in a browser, execute the Make target for the desired browser:
 
     $ make test-chrome
     $ make test-firefox
     $ make test-safari
-
-##### PhantomJS
-
-To run headless tests from a terminal using [PhantomJS](http://phantomjs.org/):
-
+    
+Headless tests can be executed directly from a terminal:
+    
     $ make test-phantomjs
 
 ## Credits
