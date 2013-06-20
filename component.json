@@ -1,7 +1,7 @@
 {
   "name": "crypto",
   "version": "0.0.1",
-  "description": "Crypto module for Anchor.js.",
+  "description": "Support for cryptographic operations.",
   "repo": "anchorjs/crypto",
   "main": "main.js",
   "scripts": [
