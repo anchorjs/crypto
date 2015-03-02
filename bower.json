@@ -1,0 +1,28 @@
+{
+  "name": "crypto",
+  "version": "0.0.0",
+  "description": "Support for cryptographic operations.",
+  "authors": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "homepage": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anchorjs/crypto.git"
+  },
+  "license": "MIT",
+  "main": "main.js",
+  "dependencies": {
+    "md5": "git://github.com/anchorjs/md5.git#master"
+  },
+  "ignore": [
+    ".gitignore",
+    ".jshintrc",
+    "Makefile",
+    "README.md",
+    "component.json",
+    "package.json",
+    "test"
+  ]
+}
